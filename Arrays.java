@@ -1,10 +1,11 @@
 // Array with user input
+
 import java.util.Scanner;
 class Arrays
 {
 public static void main(String args[])
 {
-int arr[] = {10, 20, 30, 40, 50, 60};
+int arr[] = {};
 Scanner s = new Scanner(System.in);
 System.out.println("Please enter any Elements in array : ");
 for(int i = 0; i <= 5; i++)
