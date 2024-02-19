@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class Swap
+{
+int swap(int a, int b)
+{
+int c = a;
+a = b;
+b = c;
+System.out.println("After swapping : the value of x is : " +a);
+System.out.println("After swapping : the value of y is : " +b);
+return 0;
+}
+public static void main(String args[])
+{
+int x, y;
+Scanner s = new Scanner(System.in);
+System.out.println("Please Enter the first number : ");
+x = s.nextInt();
+System.out.println("Please Enter the second number : ");
+y = s.nextInt();
+Swap ob = new Swap();
+ob.swap(x,y);
+}
+}
